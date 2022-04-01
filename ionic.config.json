@@ -1,0 +1,7 @@
+{
+  "name": "reactive-values-changes",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
