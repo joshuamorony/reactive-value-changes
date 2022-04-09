@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title> Reactive Value Changes </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <form [formGroup]="myForm">
+    <ion-item>
+      <ion-label position="floating">Field One</ion-label>
+      <ion-input formControlName="fieldOne"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Field Two</ion-label>
+      <ion-input formControlName="fieldTwo"></ion-input>
+    </ion-item>
+  </form>
+</ion-content>
