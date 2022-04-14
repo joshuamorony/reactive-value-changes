@@ -10,12 +10,12 @@ import { switchMap, takeUntil } from 'rxjs/operators';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage implements OnInit, OnDestroy {
-  private destroy$ = new Subject<boolean>();
-
   myForm = this.fb.group({
     fieldOne: [],
     fieldTwo: [],
   });
+
+  private destroy$ = new Subject<boolean>();
 
   constructor(
     private fb: FormBuilder,
